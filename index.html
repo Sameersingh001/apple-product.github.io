@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Card</title>
+<link rel="stylesheet" href="C:\Users\sameer123\Desktop\HTML\Card\style.css">
+
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color: rgb(49, 47, 47);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+@media screen and (max-width:760) {
+    
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+
+    
+ 
+}
+
+.card{
+    margin: 10px;
+
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(16, 123, 236) 0px 20px 30px -10px;
+    border: 2px solid rgba(0, 162, 255, 0.877);
+    border-radius: 10px;
+
+}
+.card>img{
+    width: 300px;
+    height: 500px;
+    filter: contrast(1.5);
+   
+}
+
+.contant{
+   position: absolute;
+   bottom: -160px;
+   left: 10px;
+   color: white;
+   transition:linear 0.4s;
+}
+
+.card:hover .contant{
+    bottom: 35px;
+}
+
+.card:hover img{
+    filter: brightness(.4);
+    
+}
+</style>
+
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT51Sr_0DaBVgKcE__P40ZNRcPWrDbsDbHZZ8o_GdiD4XeecP2-GuQynzFcvMNpuReX31U&usqp=CAU" alt="">
+
+        <div class="contant">
+        
+        <h1> MY LOVE </h1>
+        
+        <p>
+            hosh vāloñ ko ḳhabar kyā be-ḳhudī kyā chiiz hai 
+
+            ishq kiije phir samajhiye zindagī kyā chiiz hai <br>
+            <br>
+            achchhā ḳhāsā baiThe baiThe gum ho jaatā huuñ 
+            ab maiñ aksar maiñ nahīñ rahtā tum ho jaatā huuñ  
+        </p>
+        
+        
+        </div>
+
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6J2jGKMEyvEWJg214tvhCMBGoEf0mXKqiA&usqp=CAU" alt="">
+
+        <div class="contant">
+        
+        <h1> MY LOVE </h1>
+        
+        <p>
+            koī samjhe to ek baat kahūñ 
+
+            ishq taufīq hai gunāh nahīñ 
+            <br><br>
+            ye ishq nahīñ āsāñ itnā hī samajh liije 
+            Ek aag kā dariyā hai aur Duub ke jaanā hai 
+
+        </p>
+        
+        
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
